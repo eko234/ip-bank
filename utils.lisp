@@ -39,6 +39,4 @@
 (defun secure-entry-point (request func)
   (match-with-request request
                       (((:key . "SHAMOWNE")) 
-                       (funcall #'func request))))
-
-)
+                       (funcall #'func request)))))
